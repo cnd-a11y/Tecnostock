@@ -1,4 +1,3 @@
-
 <?php
 session_start();
 
@@ -73,6 +72,10 @@ $productos = $consulta->fetchAll(PDO::FETCH_ASSOC);
 <div class="container mt-4">
 
     <h2>Listado de productos</h2>
+
+    <a href="inicio.php" class="btn btn-secondary mb-3">
+        Volver al menú principal
+    </a>
 
     <form method="GET" class="mb-3">
 
