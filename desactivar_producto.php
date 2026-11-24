@@ -29,3 +29,4 @@ $consulta->execute([
 header("Location: listar_productos.php?desactivado=1");
 exit;
 ?>
+
